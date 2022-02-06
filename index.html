@@ -126,6 +126,8 @@
             const downloadName = (OSName === 'WINDOWS') ? 'prizzer.exe' : (OSName === 'LINUX' || OSName === 'UNIX')
             ? 'prizzer' : null;
 
+console.log(downloadHref);
+console.log(downloadName
            document.getElementById('download').setAttribute('href', downloadHref);
            document.getElementById('download').setAttribute('download', downloadName);
         } 
