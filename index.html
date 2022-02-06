@@ -131,7 +131,7 @@ console.log(downloadHref);
 console.log(downloadName);
            document.getElementById('download').setAttribute('href', downloadHref);
            document.getElementById('download').setAttribute('download', downloadName);
-           document.getElementById('in-text').innerText(OSName.toLowerCase());
+           document.getElementById('in-text').innerText = OSName.toLowerCase();
         } 
 
         setupDownload();
